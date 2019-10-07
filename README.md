@@ -5,26 +5,13 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 第一步: 在sections文件夹执行该指令
 npm install
 
-# serve with hot reload at localhost:8080
+# 第二步： 启动vue项目
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 第三步： 访问8080端口
+localhost:8080
 
 
-
-
-#如何引入css文件
-
-<style>
-  @import './../static/css/global.css'; /*引入公共样式*/
-</style>
